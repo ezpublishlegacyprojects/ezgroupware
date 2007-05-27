@@ -1,0 +1,14 @@
+CodeSniffer
+
+You can get CodeSniffer via PEAR
+
+In order to use the eGroupWare Coding Standard, you should place a simlink in
+/usr/share/php/PHP/CodeSniffer/Standards pointing to the scripts/CodeSniffer directory:
+
+cd /usr/share/php/PHP/CodeSniffer/Standards
+ln -s /path/to/scripts/CodeSniffer egw
+
+After that you can run CodeSniffer on any file with
+phpcs --standard=egw <filename>
+
+Instead of filename you can also give a directoryname to check all files inside.

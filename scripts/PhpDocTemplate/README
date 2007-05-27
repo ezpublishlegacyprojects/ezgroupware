@@ -1,0 +1,7 @@
+To use this template with phpDocumentor on a Debian System do:
+
+cd var/www/pear/PhpDocumentor/phpDocumentor/Converters/HTML/Smarty/templates/
+ln -s /path/to/egroupware2/scripts/PhpDocTemplate/egw/ egw
+
+The phpdoc.ini must contain
+output = HTML:Smarty:egw
